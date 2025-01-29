@@ -9,7 +9,7 @@ use std::path::Path;
 /// CLI arguments
 #[derive(Parser)]
 #[command(name = "Deduplicate Lines")]
-#[command(author = "Ted Johnson <theodore.johnson@qiagen.com>")]
+#[command(author = "Ted Johnson <ted.johnson87@gmail.com>")]
 #[command(version = "1.0")]
 #[command(about = "Removes duplicate lines from a file", long_about = None)]
 struct Cli {
